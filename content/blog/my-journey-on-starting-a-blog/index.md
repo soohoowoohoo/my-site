@@ -1,5 +1,5 @@
 ---
-title: My Journey to Starting a Blog
+title: My Journey on Starting a Blog
 date: "2020-02-08T21:38:06.866Z"
 description: ""
 ---
