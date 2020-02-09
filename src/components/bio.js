@@ -75,18 +75,22 @@ const Bio = () => {
       >
         <a 
           className={bioStyles.socialLinks}
-          href={`https://twitter.com/${social.twitter}`}>
-          <FontAwesomeIcon icon={faTwitter} />
+          href={`https://twitter.com/${social.twitter}`}
+        >
+          <FontAwesomeIcon icon={faTwitter} title="Twitter" />
         </a>
         <a
           className={bioStyles.socialLinks}
-          href={`https://github.com/${social.github}`}>
-          <FontAwesomeIcon icon={faGithub} />
+          href={`https://github.com/${social.github}`}
+          alt="github social link"
+        >
+          <FontAwesomeIcon icon={faGithub} title="GitHub" />
         </a>
         <a 
           className={bioStyles.socialLinks}
-          href={`https://dev.to/${social.dev}`}>
-          <FontAwesomeIcon icon={faDev} />
+          href={`https://dev.to/${social.dev}`}
+        >
+          <FontAwesomeIcon icon={faDev} title="DEV" />
         </a>
       </div>
     </div>
