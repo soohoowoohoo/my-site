@@ -9,7 +9,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDev, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faDev, faGithub, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 import { rhythm } from "../utils/typography"
 import bioStyles from "./bio.module.css"
@@ -31,6 +31,7 @@ const Bio = () => {
             twitter
             github
             dev
+            linkedin
           }
         }
       }
@@ -91,6 +92,12 @@ const Bio = () => {
           href={`https://dev.to/${social.dev}`}
         >
           <FontAwesomeIcon icon={faDev} title="DEV" />
+        </a>
+        <a 
+          className={bioStyles.socialLinks}
+          href={`https://linkedin.com/in/${social.linkedin}`}
+        >
+          <FontAwesomeIcon icon={faLinkedinIn} title="LinkedIn" />
         </a>
       </div>
     </div>
