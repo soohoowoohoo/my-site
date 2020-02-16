@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `soohoo.io`,
     author: `Stephen SooHoo`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Documenting what I learn, one day at a time.`,
+    siteUrl: `https://www.soohoo.io`,
     social: {
       twitter: `soohoowoohoo`,
       github: `soohoowoohoo`,
