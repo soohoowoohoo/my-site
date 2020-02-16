@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://www.stephensoohoo.me/*"
+  to = "https://www.soohoo.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://stephensoohoo.me/*"
+  to = "https://www.soohoo.io/:splat"
+  status = 301
+  force = true

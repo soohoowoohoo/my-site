@@ -8,6 +8,7 @@ module.exports = {
       twitter: `soohoowoohoo`,
       github: `soohoowoohoo`,
       dev: `soohoowoohoo`,
+      linkedin: `soohoowoohoo`,
     },
   },
   plugins: [
