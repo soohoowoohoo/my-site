@@ -1,11 +1,11 @@
 [[redirects]]
-  from = "https://www.stephensoohoo.me"
+  from = "https://www.stephensoohoo.me/*"
   to = "https://www.soohoo.io"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://stephensoohoo.me"
+  from = "https://stephensoohoo.me/*"
   to = "https://www.soohoo.io"
   status = 301
   force = true
