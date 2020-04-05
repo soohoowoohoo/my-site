@@ -20,10 +20,13 @@ I've chosen to start this blog first and foremost for myself and for the reasons
 
 ### Writing to share 👋
 - share my story; everyone has a unique perspective
-- share my learning; learn in public
+- share my learning; [learn in public](https://www.swyx.io/writing/learn-in-public/)
 - share the content developers I've learned from
 
 ### Writing to represent 💻
-- I don't see enough representation by asians in the tech community, especially asian males. Is this just my perception? Right now I can only think of [Henry Zhu](https://www.henryzoo.com) from [babeljs](https://babeljs.io/). Feel free to chat with me about this on [twitter](https://twitter.com/soohoowoohoo).
+- I don't see enough representation by asians in the tech community, especially asian males. Is this just my perception? Right now I can only think of [Henry Zhu](https://www.henryzoo.com) from [babeljs](https://babeljs.io/) and [Sean Wang](https://www.swyx.io/). Feel free to chat with me about this on [twitter](https://twitter.com/soohoowoohoo).
+
+**Update:** April 5, 2020
+<br>Remembered and crediting Sean Wang for learn in public.
 
 [^1]: A dark matter developer is a developer who does not show up to your meetups, who does not participate in GitHub online communities, does not contribute to Stack Overflow. They are developers who are still actively working and contributing, but we do not know. We know that they're there, but we cannot see them. (Found and taken from [this Command Line Heroes podcast @ 25:10](https://www.redhat.com/en/command-line-heroes/season-2/developer-advocacy-roundtable).
