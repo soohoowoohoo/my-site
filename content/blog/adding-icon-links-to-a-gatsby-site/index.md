@@ -2,6 +2,7 @@
 title: Adding Icon Links to a Gatsby Site
 date: "2020-04-05T05:44:03.490Z"
 description: ""
+tags: ["site construction"]
 ---
 
 I was inspired to add a social icon links to my website after seeing it on a few other developer portfolios. There was just a nice clean feel to it. 😊 It's pretty straight forward but there are a few gotchas. I will walk through how I added social icons to my website and how I worked through the issues I hit along the way.
