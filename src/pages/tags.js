@@ -8,7 +8,7 @@ import kebabCase from "lodash/kebabCase"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import { rhythm, scale } from "../utils/typography"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const TagsPage = ({
   data: {
@@ -22,7 +22,7 @@ const TagsPage = ({
     const title = `Tags`
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title={title} />
+        <Seo title={title} />
         <div>
           <h1
             style={{

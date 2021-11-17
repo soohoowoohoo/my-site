@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDev, faGithub, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 import { rhythm } from "../utils/typography"
-import bioStyles from "./bio.module.css"
+import { socialLinks } from "./bio.module.css"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -75,26 +75,26 @@ const Bio = () => {
         }}
       >
         <a 
-          className={bioStyles.socialLinks}
+          className={socialLinks}
           href={`https://twitter.com/${social.twitter}`}
         >
           <FontAwesomeIcon icon={faTwitter} title="Twitter" />
         </a>
         <a
-          className={bioStyles.socialLinks}
+          className={socialLinks}
           href={`https://github.com/${social.github}`}
           alt="github social link"
         >
           <FontAwesomeIcon icon={faGithub} title="GitHub" />
         </a>
         <a 
-          className={bioStyles.socialLinks}
+          className={socialLinks}
           href={`https://dev.to/${social.dev}`}
         >
           <FontAwesomeIcon icon={faDev} title="DEV" />
         </a>
         <a 
-          className={bioStyles.socialLinks}
+          className={socialLinks}
           href={`https://linkedin.com/in/${social.linkedin}`}
         >
           <FontAwesomeIcon icon={faLinkedinIn} title="LinkedIn" />
