@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 const Tags = ({ data, pageContext, location }) => {
@@ -17,7 +17,7 @@ const Tags = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title={`${tag} Tag`} />
+      <Seo title={`${tag} Tag`} />
       <div style={{marginBottom: rhythm(1)}}>
         <h1
           style={{
