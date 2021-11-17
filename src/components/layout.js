@@ -66,7 +66,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © 2020 Stephen SooHoo
+        © 2020-{`${new Date().getFullYear()}`} Stephen SooHoo
       </footer>
     </div>
   )
