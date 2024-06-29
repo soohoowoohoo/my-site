@@ -1,0 +1,25 @@
+baseURL: 'https://www.soohoo.io/'
+languageCode: 'en-us'
+title: "soohoo.io"
+theme: 'papermod'
+
+enableRobotsTXT: true
+
+params:
+  ShowReadingTime: true
+  homeInfoParams:
+      Title: "Welcome \U0001F601"
+      Content: A tech blog written by Stephen SooHoo, who lives and works in Austin, TX. Thoughts are his own.
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/soohoowoohoo/"
+    - name: github
+      url: "https://github.com/soohoowoohoo/"
+    - name: linkedin
+      url: "https://linkedin.com/in/soohoowoohoo/"
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
