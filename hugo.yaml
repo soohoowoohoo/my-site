@@ -17,6 +17,7 @@ params:
       url: "https://github.com/soohoowoohoo/"
     - name: linkedin
       url: "https://linkedin.com/in/soohoowoohoo/"
+  ShowCodeCopyButtons: true
 menu:
   main:
     - identifier: tags
