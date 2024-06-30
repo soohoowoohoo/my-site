@@ -1,3 +1,7 @@
 [submodule "content"]
-	path = content
-	url = git@github.com:soohoowoohoo/my-site-content.git
+        path = content
+        url = git@github.com:soohoowoohoo/my-site-content.git
+        branch = hugo
+[submodule "themes/PaperMod"]
+        path = themes/PaperMod
+        url = https://github.com/adityatelange/hugo-PaperMod.git
