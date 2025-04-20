@@ -9,7 +9,7 @@ params:
   ShowReadingTime: true
   homeInfoParams:
       Title: "Welcome \U0001F601"
-      Content: A tech blog written by Stephen SooHoo, who lives and works in Austin, TX. Thoughts are his own.
+      Content: A tech blog written by Stephen SooHoo focused on Go development, DevOps practices, and homelab adventures. Thoughts are his own.
   socialIcons:
     - name: twitter
       url: "https://twitter.com/soohoowoohoo/"
@@ -22,7 +22,11 @@ params:
     - blog
 menu:
   main:
+    - identifier: cheatsheets
+      name: cheatsheets
+      url: /cheatsheets/
+      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 10
+      weight: 20
