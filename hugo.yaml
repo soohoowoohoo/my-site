@@ -22,7 +22,11 @@ params:
     - blog
 menu:
   main:
+    - identifier: cheatsheets
+      name: cheatsheets
+      url: /cheatsheets/
+      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 10
+      weight: 20
