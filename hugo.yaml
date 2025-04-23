@@ -4,6 +4,7 @@ title: "soohoo.io"
 theme: 'PaperMod'
 
 enableRobotsTXT: true
+enableGitInfo: true
 
 params:
   ShowReadingTime: true
@@ -30,3 +31,7 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 30
