@@ -19,6 +19,8 @@ params:
     - name: linkedin
       url: "https://linkedin.com/in/soohoowoohoo/"
   ShowCodeCopyButtons: true
+  showtoc: true
+  tocOpen: true
   mainSections:
     - blog
 menu:
