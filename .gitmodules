@@ -1,6 +1,6 @@
 [submodule "content"]
         path = content
-        url = https://github.com/soohoowoohoo/my-site-content.git
+        url = ../my-site-content.git
 [submodule "themes/PaperMod"]
         path = themes/PaperMod
         url = https://github.com/adityatelange/hugo-PaperMod.git
